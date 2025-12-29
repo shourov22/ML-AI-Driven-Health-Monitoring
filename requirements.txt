@@ -1,0 +1,6 @@
+ipykernel==7.1.0
+pandas==2.3.3
+numpy==2.14.0
+scikit-learn==1.8.0
+python-dotenv==1.2.1
+openai==2.14.0 
