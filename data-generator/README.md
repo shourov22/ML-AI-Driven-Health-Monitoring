@@ -26,4 +26,5 @@ A patient is labeled high risk (1) if any of these are true:
 To mimic real-world imperfect medical data a small amount (10%) of randomness is added.
 
 **Output**
+
 The script saves a file named health_data_v1.csv with 500 rows of clean, ready‑to‑use data.
