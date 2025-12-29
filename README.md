@@ -1,6 +1,6 @@
 ## **Health Monitoring System with ML Risk Prediction and AI‑Generated Advice**
 
-This project builds a machine‑learning model using a Random Forest classifier to predict a person's health risk level based on key health indicators. It also integrates the OpenAI API to generate personalized health advice based on the model’s prediction.
+This project builds a machine learning model using a Random Forest classifier to predict a person's health risk level based on key health indicators. It also integrates the OpenAI API to generate personalized health advice based on the model’s predicted risk level together with the patient’s health indicators.
 
 **Features**
 
@@ -12,14 +12,15 @@ This project builds a machine‑learning model using a Random Forest classifier 
 
 **Requirements**
 
-Dependencies:
-- pandas
-- scikit-learn
-- python-dotenv
-- openai
-- ipykernel
+- Dependencies:
+    - pandas
+    - scikit-learn
+    - python-dotenv
+    - numpy
+    - openai
+    - ipykernel
 
-.env file contains the OpenAI API key (OPENAI_API_KEY).
+- .env file contains the OpenAI API key (OPENAI_API_KEY).
 
 **How It Works**
 
@@ -35,7 +36,7 @@ Dependencies:
     - predict_health_risk(...) → returns "low" or "high"
     - generate_health_advice(...) → returns AI‑generated advice
 - Evaluates the model using test data.
-- Check the health monitoring system for a new patient input 
+- Check the health monitoring system for a new patient input. 
 
 **Notes**
 
