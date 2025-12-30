@@ -20,6 +20,8 @@ This project builds a machine learning model using a Random Forest classifier to
     - openai
     - ipykernel
 
+  To install the dependencies: pip install -r requirements.txt
+
 - .env file contains the OpenAI API key (OPENAI_API_KEY).
 
 **How It Works**
